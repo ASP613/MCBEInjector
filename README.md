@@ -7,4 +7,6 @@ At runtime, memory usage is fairly minimal, though one may find that the program
 
 ![This is the program as it is in use.](https://github.com/ASP613/MCBEInjector/blob/main/Capture.PNG)
 
-Please note that it is unlikely to work with most third-party client DLLs.
+Please note that it is unlikely to work with most third-party client DLLs.  
+
+Nonetheless, you may find useful code in this repository regarding both code injection and launching a Store App by it's Application User Model ID.
