@@ -6,3 +6,5 @@ The goal is to be efficient, and I am satisfied that this project is reasonably 
 At runtime, memory usage is fairly minimal, though one may find that the program does not look especially fancy.
 
 ![This is the program as it is in use.](https://github.com/ASP613/MCBEInjector/blob/main/Capture.PNG)
+
+Please note that it is unlikely to work with most third-party client DLLs.
