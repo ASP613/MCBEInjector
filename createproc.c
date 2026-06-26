@@ -21,7 +21,7 @@ DWORD CreateMCBEProc(void)
     // concurrency mode, we may proceed nonetheless.
     if (FAILED(hr) && hr != RPC_E_CHANGED_MODE)
     {
-        MessageBoxW(NULL, L"Failed to initialize COM.", L"MCBEInject", MB_OK | MB_ICONERROR);
+        MessageBoxW(NULL, L"Failed to initialise COM.", L"MCBEInject", MB_OK | MB_ICONERROR);
         return 0;
     }
 
