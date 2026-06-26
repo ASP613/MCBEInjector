@@ -7,7 +7,7 @@
 DWORD CreateMCBEProc(void)
 {
     HRESULT hr;
-    DWORD pid = 0;
+    DWORD pid;
 
     // While IApplicationActivationManager does not require a multithreaded apartment, using an MTA has some
     // benefits; we do not need a message pump nor do we need unnecessary serialisation.
@@ -54,7 +54,7 @@ DWORD CreateMCBEProc(void)
 
     hr = pAAM->lpVtbl->ActivateApplication(
         pAAM, // (usually implicit) this
-        L"Microsoft.MinecraftUWP_8wekyb3d8bbwe!Game", // Seems that Microsoft still uses the old UWP AUMID...
+        L"Microsoft.MinecraftUWP_8wekyb3d8bbwe!Game", // Seems that Minecraft still uses the old UWP AUMID...
         NULL,
         AO_NONE,
         &pid
